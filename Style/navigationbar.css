@@ -64,14 +64,14 @@ nav ul li a:hover{
 
 @media(min-width: 952px){
     label.logo a{
-        font-size: 30px;
+        font-size: 25px;
         transition: .5s;
     }
 }
 
 @media(max-width:853px){
     label.logo a{
-        font-size: 25px;
+        font-size: 20px;
         transition: .5s;
     }
     .checkbtn{
