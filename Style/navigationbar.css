@@ -9,14 +9,15 @@
 nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #000000;
-    margin: 0;
-    height: 80px;
+    position: fixed;
+    top: 0;
+    height: 8vh;
     width: 100%;
 }
 
 label.logo a{
     font-size: 30px;
-    line-height: 80px;
+    line-height: 60px;
     padding: 0 80px;
     font-weight: bold;
     cursor: pointer;
@@ -29,7 +30,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 60px;
     margin: 0 10px;
 }
 
@@ -51,7 +52,7 @@ nav ul li a:hover{
     font-size: 30px;
     float: right;
     margin: 0 30px;
-    line-height: 80px;
+    line-height: 60px;
     display: none;
     cursor: pointer;
     color: white;

@@ -9,6 +9,7 @@
 body {
     /*Why this is not taking the doouble dot in the image*/
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../Images/Vitruvius.jpg") center/cover no-repeat fixed;
+    margin-top: 100px;
 }
 
 .basebackground {
