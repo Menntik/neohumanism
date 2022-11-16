@@ -64,12 +64,12 @@ nav ul li a:hover{
 
 @media(min-width: 952px){
     label.logo a{
-        font-size: 35px;
+        font-size: 30px;
         transition: .5s;
     }
 }
 
-@media(max-width:858px){
+@media(max-width:853px){
     label.logo a{
         font-size: 25px;
         transition: .5s;
