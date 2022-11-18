@@ -73,7 +73,7 @@ nav ul li a:hover{
 
 @media(max-width:853px){
     label.logo a{
-        font-size: 20px;
+        font-size: 18px;
         transition: .5s;
     }
     .checkbtn{

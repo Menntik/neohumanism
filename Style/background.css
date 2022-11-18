@@ -1,8 +1,9 @@
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
 }
 
 /* background and white background */
@@ -13,7 +14,7 @@ body {
 }
 
 .basebackground {
-    background: linear-gradient(rgba(255, 255, 255, 0.700), rgba(128, 128, 128, 0.700));
+    background: linear-gradient(rgba(255, 255, 255, 0.884), rgba(128, 128, 128, 0.842));
     width: 95%;
     margin: 2% 0 0 2.5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,15 +31,51 @@ body {
     font-size: 14px;
 }
 
-/*Paragraph*/
+/*Main Content*/
+.content {
+    display: flex;
+    flex-wrap:wrap;
 
-.paragraph {
-    text-align:justify;
-    margin: 50px;
 }
 
-/*Tittle*/
+.content > *:nth-child(1){
+    flex: 1 1 20%;
+    min-width: 25ch;
+    background: linear-gradient(rgba(255, 255, 255, 0.952), rgba(128, 128, 128, 0.932));
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.content > *:nth-child(2){
+    flex: 1 1 70%;
+    background: linear-gradient(rgba(255, 255, 255, 0.952), rgba(128, 128, 128, 0.932));
+    margin: 1em;
+    border-radius: 10px;
+}
+
 .title {
     text-align: center;
-    margin: 40px;
+    margin: 2em;
+}
+
+.paragraph {
+    text-align: justify;
+    margin: 3em;
+}
+
+/*Aside Content*/
+
+.log-in {
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    margin: 2em;
+}
+
+.description {
+    padding: 2em;
+    text-align: justify;
 }
