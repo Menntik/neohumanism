@@ -71,11 +71,11 @@ body {
     font-weight: bold;
 }
 
-table {
-    margin: 2em;
-}
-
 .description {
     padding: 2em;
     text-align: justify;
+}
+
+.table2 {
+    margin: 0 auto 50px auto;
 }
