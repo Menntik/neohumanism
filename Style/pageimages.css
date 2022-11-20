@@ -1,7 +1,7 @@
 .img {
     display: block;
-    width:20em;
-    height: 30em;
+    width:15em;
+    height: 23em;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5em;
@@ -21,4 +21,12 @@ div img {
     border-style: solid;
     border-radius: 150px;
     margin: 1em auto 1em auto;
+}
+
+@media(max-width: 740px){
+    .img {
+        width: 10em;
+        height: 18em;
+        transition: .5s;
+    }
 }
