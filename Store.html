@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="./Style/HomePageStyle.css">
     <link rel="stylesheet" href="./Style/navigationbar.css">
     <link rel="stylesheet" href="./Style/background.css">
+    <link rel="stylesheet" href="./Style/store.css">
+    <link rel="stylesheet" href="./Style/pageimages.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neo Humanism</title>
@@ -29,13 +31,46 @@
             <p class="mainphrase">Giovany Pico della Mirandola</p><p>1463-1494</p>
         </h5>
         <div class="content">
+            <!--Aside bar-->
             <div class="aside-bar">
-                Hellow
+                <h2 class="title">STORE</h2>
+                <h2 class="description"> Some Filters</h2>
             </div>
+            <!--Main Content-->
             <div class="main-content">
-                There
+                <h1 class="title">TRENDING DEALS</h1>
+                <div class="product-block">
+                    <!--First Product-->
+                    <div class="description product">
+                        MASK GILGAMESH
+                        <img src="./Images/Products/Product 2.jpg" class="img">
+                        <h2 class="description">ADD TO THE CAR, Now: <span id="zero-counter">0</span></h2>
+                        <button class="btn addition"> Add </button>
+                        <button class="btn reset"> Reset </button>
+                        <button class="btn sustraction"> Del </button>
+                    </div>
+                    <!--Second Product-->
+                    <div class="description product">
+                        SPINAK VEST
+                        <img src="./Images/Products/Product 1.jpg" class="img">
+                        <h2 class="description">ADD TO THE CAR, Now: <span id="zero-counter2">0</span></h2>
+                        <button class="btn addition"> Add </button>
+                        <button class="btn reset"> Reset </button>
+                        <button class="btn sustraction"> Del </button>
+                    </div>
+                    <!--Third Product-->
+                    <div class="description product">
+                        VINTAGE BOOTS
+                        <img src="./Images/Products/Product 3.jpg" class="img">
+                        <h2 class="description">ADD TO THE CAR, Now: <span id="zero-counter3">0</span></h2>
+                        <button class="btn addition"> Add </button>
+                        <button class="btn reset"> Reset </button>
+                        <button class="btn sustraction"> Del </button>
+                    </div>
+                </div>
             </div>
         </div>
+        <script src="./scripts/counter.js"></script>
     </main>
 </body>
 </html>
